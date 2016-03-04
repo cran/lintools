@@ -22,7 +22,7 @@ sparse_project(x, A, b, neq = length(b), w = rep(1, length(x)),
 
 \item{maxiter}{maximally allowed number of iterations.}
 
-\item{...}{extra parameters passed to \code{\link{sparseConstraints}}}
+\item{...}{extra parameters passed to \code{\link{sparse_constraints}}}
 }
 \value{
 A \code{list} with the following entries:
@@ -73,6 +73,6 @@ sparse_project(x=c(4,5),A=A,b=b)
 
 }
 \seealso{
-\code{\link{project}}, \code{\link{sparseConstraints}}
+\code{\link{project}}, \code{\link{sparse_constraints}}
 }
 

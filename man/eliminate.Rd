@@ -4,7 +4,8 @@
 \alias{eliminate}
 \title{Eliminate a variable from a set of edit rules}
 \usage{
-eliminate(A, b, neq = nrow(A), nleq = 0, variable, H = NULL, h = 0)
+eliminate(A, b, neq = nrow(A), nleq = 0, variable, H = NULL, h = 0,
+  eps = 1e-08)
 }
 \arguments{
 \item{A}{\code{[numeric]} Matrix}
@@ -24,6 +25,8 @@ of the form \code{a.x<b}.}
 
 \item{h}{\code{[numeric]} (optional) number indicating how many variables have been eliminated from the original system
 using Fourier-Motzkin elimination.}
+
+\item{eps}{\code{[numeric]} Coefficients with absolute value  \code{<= eps} are treated as zero.}
 }
 \value{
 A \code{list} with the folowing components
