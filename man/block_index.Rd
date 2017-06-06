@@ -32,4 +32,3 @@ Find independent blocks of equations.
 
 
 }
-

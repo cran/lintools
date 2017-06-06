@@ -45,6 +45,7 @@ If \code{unit>0}, the strict inequalities \code{a.x < b} are replaced with
 inequations of the form \code{a.x <= b-unit}, where \code{unit} represents
 the precision of measurement.
 }
+
 \examples{
 
 A <- matrix(1:12,nrow=4)
@@ -54,4 +55,3 @@ normalize(A,b,ops)
 normalize(A,b,ops,unit=0.1)
 
 }
-

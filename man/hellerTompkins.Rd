@@ -21,4 +21,3 @@ This function is \code{deducorrect} internal
 \code{\link{is_totally_unimodular}}
 }
 \keyword{internal}
-

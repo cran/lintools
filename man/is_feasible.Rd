@@ -44,4 +44,3 @@ b <- rep(0,3)
 is_feasible(A=A,b=b,neq=1,nleq=2)
 
 }
-

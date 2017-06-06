@@ -19,4 +19,3 @@ This function is \code{lintools} internal
 \code{\link{is_totally_unimodular}}
 }
 \keyword{internal}
-

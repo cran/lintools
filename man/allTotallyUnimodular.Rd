@@ -19,4 +19,3 @@ Helper function for \code{\link{raghavachari}}
 \code{\link{is_totally_unimodular}}
 }
 \keyword{internal}
-

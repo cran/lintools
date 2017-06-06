@@ -54,6 +54,7 @@ is set to zero when it's value is lesser than zero (i.e. when the restriction is
 algorithm iterates until either the tolerance is met, the number of allowed iterations is
 exceeded or divergence is detected.
 }
+
 \examples{
 
 # the system 
@@ -75,4 +76,3 @@ sparse_project(x=c(4,5),A=A,b=b)
 \seealso{
 \code{\link{project}}, \code{\link{sparse_constraints}}
 }
-

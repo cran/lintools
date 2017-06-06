@@ -25,4 +25,3 @@ using Fourier-Motzkin elimination.}
 Gaussian and/or Fourier-Motzkin elimination is used 
 to derive upper and lower limits implied by a system of (in)equations.
 }
-

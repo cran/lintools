@@ -65,4 +65,3 @@ Scholtus S (2008). Algorithms for correcting some obvious
 inconsistencies and rounding errors in business survey data. Technical
 Report 08015, Netherlands.
 }
-

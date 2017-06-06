@@ -47,6 +47,7 @@ A system of equations is in \href{https://en.wikipedia.org/wiki/Row_echelon_form
 \item{The leading coefficient equals 1, and is the only nonzero coefficient in its column.}
 }
 }
+
 \examples{
 echelon(
  A = matrix(c(
@@ -60,4 +61,3 @@ echelon(
 
 
 }
-

@@ -53,6 +53,7 @@ recursively. Redundancies can be recognized by recording how new inequations
 have been derived from the original set. This is stored in the \code{H} matrix
 when multiple variables are to be eliminated (Kohler, 1967).
 }
+
 \examples{
 
 # Example from Williams (1986)
@@ -75,4 +76,3 @@ Center Report , ORC 67-29, University of California, Berkely.
 H.P. Williams (1986) Fourier's method of linear programming and its dual. American
 Mathematical Monthly 93, pp 681-695.
 }
-

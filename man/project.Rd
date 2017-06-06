@@ -53,6 +53,7 @@ is set to zero when it's value is lesser than zero (i.e. when the restriction is
 algorithm iterates until either the tolerance is met, the number of allowed iterations is
 exceeded or divergence is detected.
 }
+
 \examples{
 
 # the system 
@@ -89,4 +90,3 @@ x1$x[1] / x1$x[2]
 \seealso{
 \code{\link{sparse_project}}
 }
-

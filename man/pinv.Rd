@@ -27,6 +27,7 @@ has the property that \eqn{\boldsymbol{A}^+\boldsymbol{AA}^+ = \boldsymbol{A}}. 
 \item{Compute \eqn{\boldsymbol{A}^+ = \boldsymbol{UDV}^T}}
 }
 }
+
 \examples{
 A <- matrix(c(
  1,  1, -1,  2,
@@ -40,4 +41,3 @@ pinv(A) * 55
 \references{
 S Lipshutz and M Lipson (2009) Linear Algebra. In: Schuam's outlines. McGraw-Hill
 }
-

@@ -31,4 +31,3 @@ Report 08015, Netherlands.
 \code{\link{is_totally_unimodular}}
 }
 \keyword{internal}
-
