@@ -5,7 +5,8 @@
 \title{Remove spurious variables and restrictions}
 \usage{
 compact(A, b, x = NULL, neq = nrow(A), nleq = 0, eps = 1e-08,
-  remove_columns = TRUE, remove_rows = TRUE, implied_equations = TRUE)
+  remove_columns = TRUE, remove_rows = TRUE, deduplicate = TRUE,
+  implied_equations = TRUE)
 }
 \arguments{
 \item{A}{[\code{numeric}] matrix}
@@ -26,6 +27,8 @@ of the form \code{a.x<b}.}
 \item{remove_columns}{[\code{logical}] Toggle remove spurious columns from \code{A} and variables from \code{x}}
 
 \item{remove_rows}{[\code{logical}] Toggle remove spurious rows}
+
+\item{deduplicate}{[\code{logical}] Toggle remove duplicate rows}
 
 \item{implied_equations}{[\code{logical}] replace cases of \code{a.x<=b} and \code{a.x>=b} with
 \code{a.x==b}.}
