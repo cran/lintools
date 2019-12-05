@@ -38,10 +38,6 @@ Object of class \code{sparse_constraints} (see details).
 }
 \description{
 Generate a constraint set to be used by \code{\link{sparse_project}}
-
-Read sparse constraints from a \code{data.frame}
-
-Print sparse_constraints object
 }
 \section{Note}{
 
