@@ -4,8 +4,7 @@
 \alias{is_feasible}
 \title{Check feasibility of a system of linear (in)equations}
 \usage{
-is_feasible(A, b, neq = nrow(A), nleq = 0, eps = 1e-08,
-  method = "elimination")
+is_feasible(A, b, neq = nrow(A), nleq = 0, eps = 1e-08, method = "elimination")
 }
 \arguments{
 \item{A}{[\code{numeric}] matrix}

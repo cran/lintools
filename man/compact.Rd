@@ -4,9 +4,18 @@
 \alias{compact}
 \title{Remove spurious variables and restrictions}
 \usage{
-compact(A, b, x = NULL, neq = nrow(A), nleq = 0, eps = 1e-08,
-  remove_columns = TRUE, remove_rows = TRUE, deduplicate = TRUE,
-  implied_equations = TRUE)
+compact(
+  A,
+  b,
+  x = NULL,
+  neq = nrow(A),
+  nleq = 0,
+  eps = 1e-08,
+  remove_columns = TRUE,
+  remove_rows = TRUE,
+  deduplicate = TRUE,
+  implied_equations = TRUE
+)
 }
 \arguments{
 \item{A}{[\code{numeric}] matrix}

@@ -3,20 +3,14 @@
 \docType{package}
 \name{lintools}
 \alias{lintools}
-\alias{lintools-package}
 \title{Tools for manipulating linear systems of (in)equations}
 \description{
-Tools for manipulating linear systems of (in)equations
-}
-\section{Details}{
-
-
 This package offers a basic and consistent interface to a number of
-operations on linear systems of (in)equations not available in base R. Except for the projection on
-the convex polytope, operations are currently supported for dense matrices
-only.
-
-
+operations on linear systems of (in)equations not available in base R.
+Except for the projection on the convex polytope, operations are currently
+supported for dense matrices only.
+}
+\details{
 The following operations are implemented.
 
 \itemize{
@@ -33,4 +27,3 @@ The following operations are implemented.
 Most functions assume a system of (in)equations to be stored in a standard form. The \code{\link{normalize}}
 function can bring any system of equations to this form.
 }
-

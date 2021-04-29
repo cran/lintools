@@ -4,8 +4,16 @@
 \alias{eliminate}
 \title{Eliminate a variable from a set of edit rules}
 \usage{
-eliminate(A, b, neq = nrow(A), nleq = 0, variable, H = NULL, h = 0,
-  eps = 1e-08)
+eliminate(
+  A,
+  b,
+  neq = nrow(A),
+  nleq = 0,
+  variable,
+  H = NULL,
+  h = 0,
+  eps = 1e-08
+)
 }
 \arguments{
 \item{A}{\code{[numeric]} Matrix}

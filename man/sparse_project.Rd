@@ -4,8 +4,16 @@
 \alias{sparse_project}
 \title{Successive projections with sparsely defined restrictions}
 \usage{
-sparse_project(x, A, b, neq = length(b), w = rep(1, length(x)),
-  eps = 0.01, maxiter = 1000L, ...)
+sparse_project(
+  x,
+  A,
+  b,
+  neq = length(b),
+  w = rep(1, length(x)),
+  eps = 0.01,
+  maxiter = 1000L,
+  ...
+)
 }
 \arguments{
 \item{x}{\code{[numeric]} Vector to optimize, starting point.}

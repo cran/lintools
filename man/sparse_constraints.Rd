@@ -11,8 +11,7 @@ sparse_constraints(object, ...)
 
 sparseConstraints(object, ...)
 
-\method{sparse_constraints}{data.frame}(object, b, neq = length(b),
-  base = 1L, sorted = FALSE, ...)
+\method{sparse_constraints}{data.frame}(object, b, neq = length(b), base = 1L, sorted = FALSE, ...)
 
 \method{print}{sparse_constraints}(x, range = 1L:10L, ...)
 }

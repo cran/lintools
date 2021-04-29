@@ -4,8 +4,15 @@
 \alias{project}
 \title{Project a vector on the border of the region defined by a set of linear (in)equality restrictions.}
 \usage{
-project(x, A, b, neq = length(b), w = rep(1, length(x)), eps = 0.01,
-  maxiter = 1000L)
+project(
+  x,
+  A,
+  b,
+  neq = length(b),
+  w = rep(1, length(x)),
+  eps = 0.01,
+  maxiter = 1000L
+)
 }
 \arguments{
 \item{x}{[\code{numeric}] Vector that needs to satisfy the linear restrictions.}
