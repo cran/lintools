@@ -4,7 +4,7 @@
 \alias{subst_value}
 \title{Substitute a value in a system of linear (in)equations}
 \usage{
-subst_value(A, b, variables, values, remove_columns = FALSE)
+subst_value(A, b, variables, values, remove_columns = FALSE, eps = 1e-08)
 }
 \arguments{
 \item{A}{\code{[numeric]} matrix}
@@ -16,6 +16,9 @@ subst_value(A, b, variables, values, remove_columns = FALSE)
 \item{values}{\code{[numeric]} vecor of values to substitute.}
 
 \item{remove_columns}{\code{[logical]} Remove spurious columns when substituting?}
+
+\item{eps}{\code{[numeric]} scalar. Any value with absolute value below \code{eps} will be 
+interpreted as zero.}
 }
 \value{
 A \code{list} with the following components:
